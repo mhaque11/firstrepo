@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7956388500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SendEmailStepDef.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Send a Message",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-send-a-custom-email-to-the-application-support-center;send-a-message",
+        "after": [
+          {
+            "result": {
+              "duration": 226246100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SendEmailStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5921247000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Navigate to My Store Home Page",
+            "match": {
+              "location": "SendEmailStepDef.user_Navigate_to_My_Store_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7699335000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Click on Contact Us Page",
+            "match": {
+              "location": "SendEmailStepDef.user_Click_on_Contact_Us_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5805324900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fill Up all the info and Send Email",
+            "match": {
+              "location": "SendEmailStepDef.user_fill_Up_all_the_info_and_Send_Email()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I should be able to Send a custom email to the application support center",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-send-a-custom-email-to-the-application-support-center",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/SendEmailMessage.feature",
+    "tags": []
+  }
+]

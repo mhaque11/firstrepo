@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.615333">
+<testcase classname="As a user I should be able to Send a custom email to the application support center" name="Send a Message" time="27.615333">
+<system-out><![CDATA[Given User Navigate to My Store Home Page...................................passed
+When User Click on Contact Us Page..........................................passed
+Then User fill Up all the info and Send Email...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
